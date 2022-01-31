@@ -286,7 +286,7 @@ function App() {
                 ["Google Protocol Buffers", "Intermediate"],
                 [".NET", "Advanced"],
                 ["Regex", "Advanced"],
-                ["OpemMP", "Beginner"],
+                ["OpenMP", "Beginner"],
                 ["pthreads", "Intermediate"],
                 ["CUDA", "Beginner"],
                 ["tensorflow", "Beginner"],
@@ -444,50 +444,7 @@ function App() {
             bullets={[]}/>
           </AccordionDetails>
           </Accordion>
-          <Accordion defaultExpanded={true} sx={{mx:4}}>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel1a-content"
-            id="panel1a-header"
-            
-          >
-            <Typography variant="h5">Experience</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <ExperienceSection company="Unisys Corporation" location="Blue Bell, PA" timeframe="July 2019 - Present" position="Stealth Security Engineer" bullets={[
-              "Architected, designed, built, maintained, and automated testing of features for a networking sniffing, modeling, and visualization tool that spanned the entire stack - from C-level network sniffers to an Electron/React frontend",
-              "Mentored co-ops (6 total, over 1.5 years) on multiple projects - automated performance testing, automated Jira issue creation for regressions, and wrapping internal REST APIs in multiple programming languages",
-              "Worked with internal delivery and documentation teams for feature estimation, cloud-based deployments, support, and OEM reselling by third parties"
-            ]} />
-            <ExperienceSection company="Unisys Corporation" location="Blue Bell, PA" timeframe="September 2018 - July 2019" position="Stealth Security Associate Engineer" bullets={[
-"Developed applications to integrate Unisys Stealth with ServiceNow for Forrester Wave Demos resulting in Unisys Stealth being classified as a Strong Performer",
-"Worked externally with Splunk to make Unisys a Splunk Technology Partner",
-"Worked with Microsoft developers and Unisys Federal to create a Windows Service making Unisys Stealth cloud-capable"
-            ]} />
-            <ExperienceSection company="Susquehanna International Group" location="Bala Cynwyd, PA" timeframe="September 2017 - September 2018" position="Middleware Development Co-Op" bullets={[
-"Improved build systems and performant, low resource, cross-platform C++ monitoring tools, low-level libraries, routers, and applications that communicate over multicast and utilize Google Protocol Buffers",
-"Debugged and resolved high-impact production failures on Linux and Windows hosts relating to aforementioned tooling"
-            ]} />
-            <ExperienceSection
-              company="Unisys Corporation"
-              location="Malvern, PA"
-              timeframe="September 2016 - September 2017"
-              position="Stealth Security Co-Op" bullets={[
-                "Created a PowerShell module with vSphere’s PowerCLI for CI/DevOps teams to deploy and simulate cross-platform company network usage for testing a managed network security application",
-                "Developed a PowerShell module for clients and system administrators that wraps the product’s REST API"
-                
-            ]} />
-            <ExperienceSection
-              company="Sunoco, LP"
-              location="Newtown Square, PA"
-              timeframe="September 2015 - March 2016"
-              position="Retail Technology Project Assistant " bullets={[
-                "Revised existing and built new processes and systems for automating accounting, project management of device installations, and management - resulting in spotting and resolving losses of half a million dollars",
-                "Assisted in testing and compliance of ISO/IES 7813 and ATL 105 (credit card/transaction standards)"
-                    
-            ]} />
-          </AccordionDetails>
-          </Accordion>
+          
           <Accordion defaultExpanded={true} sx={{mx:4}}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
